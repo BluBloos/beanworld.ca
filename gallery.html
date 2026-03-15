@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery &mdash; Bean World</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="map.html">Map</a>
+      <a href="timeline.html">Timeline</a>
+    </nav>
+
+    <div class="content">
+      <h1>Gallery</h1>
+      <p class="divider">&bull; &bull; &bull;</p>
+      <p style="text-align:center; font-style:italic; color:var(--ink-light);">Screenshots from our adventures in Bean World. Click any image to view it full size.</p>
+
+      <div class="gallery-grid" id="gallery">
+        <!--
+          Add screenshots here as <img> tags:
+          <img src="assets/photos/my-screenshot.png" alt="Description of the screenshot">
+        -->
+      </div>
+
+      <div class="empty-state" id="gallery-empty">
+        No photos yet. Add screenshots to <code>assets/photos/</code> and list them here.
+      </div>
+    </div>
+
+    <!-- Lightbox overlay -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <img src="" alt="Full size screenshot" id="lightbox-img">
+    </div>
+
+    <footer class="footer">
+      Bean World &mdash; a family heirloom, one block at a time
+    </footer>
+  </div>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>

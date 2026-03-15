@@ -1,0 +1,58 @@
+[
+  {
+    "name": "The Great Bridge",
+    "date": "2024-06-15",
+    "x": 120,
+    "z": -340,
+    "builder": "Dad",
+    "description": "A grand stone bridge spanning the river gorge, complete with lantern posts and vine detailing."
+  },
+  {
+    "name": "Mushroom Manor",
+    "date": "2024-07-22",
+    "x": -200,
+    "z": 50,
+    "builder": "Mom",
+    "description": "A cozy cottage built inside and around a giant red mushroom. Features a rooftop garden."
+  },
+  {
+    "name": "The Watchtower",
+    "date": "2024-08-10",
+    "x": 300,
+    "z": 180,
+    "builder": "Bean",
+    "description": "A tall medieval watchtower on the hilltop, with a beacon fire that can be seen from spawn."
+  },
+  {
+    "name": "Undersea Dome",
+    "date": "2024-09-03",
+    "x": -80,
+    "z": -200,
+    "builder": "Bean",
+    "description": "A glass dome built on the ocean floor, housing a small underwater farm and aquarium."
+  },
+  {
+    "name": "The Nether Highway",
+    "date": "2024-10-01",
+    "x": 50,
+    "z": -50,
+    "builder": "Dad",
+    "description": "An ice-road highway through the Nether connecting all major portals. Fast travel for everyone."
+  },
+  {
+    "name": "Flower Valley",
+    "date": "2025-01-18",
+    "x": 450,
+    "z": -100,
+    "builder": "Mom",
+    "description": "A sprawling garden in a valley, with every type of flower arranged in color-gradient rows."
+  },
+  {
+    "name": "Castle Beansworth",
+    "date": "2025-03-05",
+    "x": -350,
+    "z": 300,
+    "builder": "Bean",
+    "description": "The server's largest build — a full medieval castle with throne room, dungeon, and working drawbridge."
+  }
+]

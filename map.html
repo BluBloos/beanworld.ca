@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Map &mdash; Bean World</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="map.html" class="active">Map</a>
+      <a href="timeline.html">Timeline</a>
+    </nav>
+
+    <div class="content">
+      <h1>World Map</h1>
+      <p class="divider">&bull; &bull; &bull;</p>
+
+      <div class="map-container" id="map-container">
+        <img src="assets/map-placeholder.svg" alt="Bean World Map" class="map-bg" id="map-bg">
+        <!-- Build markers are placed here by js/map.js -->
+      </div>
+
+      <p class="map-legend">Hover over a marker to see build details. Map coordinates are approximate.</p>
+    </div>
+
+    <footer class="footer">
+      Bean World &mdash; a family heirloom, one block at a time
+    </footer>
+  </div>
+
+  <script src="js/map.js"></script>
+</body>
+</html>
