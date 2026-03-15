@@ -217,19 +217,43 @@ p {
   gap: 1rem;
 }
 
-.gallery-grid img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+.gallery-item {
   border: 2px solid var(--border-brown);
   border-radius: 3px;
+  overflow: hidden;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.gallery-grid img:hover {
+.gallery-item:hover {
   transform: scale(1.03);
   box-shadow: 0 4px 12px var(--shadow);
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item figcaption {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-light);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.3), transparent);
+}
+
+.gallery-date {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  margin-bottom: 0.15rem;
 }
 
 /* Lightbox */
