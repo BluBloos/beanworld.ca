@@ -19,7 +19,6 @@
 
   <!-- Border -->
   <rect x="15" y="15" width="970" height="670" fill="none" stroke="#8b6914" stroke-width="3" rx="4"/>
-  <rect x="22" y="22" width="956" height="656" fill="none" stroke="#8b6914" stroke-width="1" rx="3" opacity="0.5"/>
 
   <!-- Terrain features (hand-drawn style) -->
   <!-- Mountains -->

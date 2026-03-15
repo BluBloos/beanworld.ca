@@ -390,7 +390,7 @@ p {
 .map-container {
   position: relative;
   overflow: auto;
-  border: 3px double var(--border-brown);
+  border: none;
   border-radius: 4px;
   background: var(--parchment-dark);
   margin-top: 1rem;
