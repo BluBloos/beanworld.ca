@@ -546,4 +546,18 @@ p {
   .timeline-entry {
     flex: 0 0 200px;
   }
+
+  .map-content {
+    display: none;
+  }
+}
+
+.map-mobile-msg {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .map-mobile-msg {
+    display: block;
+  }
 }
